@@ -1,0 +1,105 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  position: absolute;
+  width: 1500px;
+  height: 98px;
+  left: 0px;
+  top: -2px;
+
+  display: flex;
+  background: #000000;
+}
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+.link-group {
+  display: flex;
+}
+
+.header > div > a {
+  margin: 0 10px 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}
+.content {
+  position: absolute;
+  width: 591px;
+  height: 229px;
+  left: 149px;
+  top: 250px;
+}
+
+.content > h2 {
+  /* position: absolute;
+  width: 591px;
+  height: 67px;
+  left: 149px;
+  top: 335px; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 61.04px;
+  /* line-height: 72px; */
+
+  color: #ffffff;
+}
+
+.content > p {
+  /* position: absolute;
+  width: 588px;
+  height: 81px;
+  left: 152px;
+  top: 420px; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  /* line-height: 23px; */
+
+  color: #ffffff;
+}
+
+.content > button {
+  /* position: absolute;
+  width: 400px;
+  height: 57px;
+  left: 244px;
+  top: 507px; */
+
+  background: #319d35;
+  border-radius: 25px;
+  padding: 10px 100px;
+}
+
+.back-ground {
+  position: absolute;
+  left: -230px;
+  top: -47px;
+  width: 1753px;
+  height: 811px;
+  background: url(./resource/bg.png);
+}
+
+.blur {
+  position: absolute;
+  width: 1500px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+
+  background: #e5e5e5;
+  mix-blend-mode: color-burn;
+}
